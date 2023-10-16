@@ -25,7 +25,7 @@ export default function TaskHookForm(props) {
 
         if ( 0 === len )
             message = "Lütfen en az bir kişi seçin"
-        else if ( len > 2 )
+        else if ( len > 3 )
             message = "En fazla 3 kişi seçebilirsiniz";
         else
             message = true;
